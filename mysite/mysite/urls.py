@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),        # 管理サイト
-    path('main/', include('main.urls'))     # メインページ
+    path('', include('main.urls'))     # メインページ
 ]
